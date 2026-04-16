@@ -81,7 +81,7 @@ else
 endif
 
 # only building static lib
-FFLAGS+=-fPIE
+FFLAGS+=-fPIC
 
 ifeq ($(DEBUG),true)
   DEBUG_CFLAGS=-g
